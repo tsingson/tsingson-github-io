@@ -32,12 +32,12 @@ publishDir =                "../tsingson.github.io"
   identifier = "tech"
   url = "/tech/"
 [[menu.main]]
-  name = "设计设计"
+  name = "Design设计"
   weight = 20
   identifier = "design"
   url = "/design/"
 [[menu.main]]
-  name = "Harmonica音乐"
+  name = "Music音乐"
   weight = 20
   identifier = "music"
   url = "/music/"
