@@ -3,19 +3,23 @@ title: "bilibili/discovery 基本概念及在 goim中的使用"
 date: 2019-04-24T22:02:57+08:00
 hidden: false
 draft: false
+author: "tsingson"
 tags: [golang, go, goim]
 keywords: [tsingson]
 description: "bilibili/discovery 基本概念及在 goim中的使用"
 slug: "goim-go-03"
 ---
 
-
+[简述] [bilibili/discovery](https://github.com/bilibili/discovery) 是用于 [http://goim.io](http://goim.io) 的服务注册/发现的依赖网元, 由golang 实现了  [netflix/eureka](https://github.com/Netflix/eureka)  , 支持 goim 的分布式部署与动态调度路由, 本文介绍基本概念与配置要点
+<!--more-->
 ## 0. 背景与动机
 
 在学习 goim 过程中, [bilibili/discovery](https://github.com/bilibili/discovery) 是一个服务注册/发现的依赖网元, golang 实现了 [netflix/eureka](https://github.com/Netflix/eureka) 并作了一些扩展改进
 
 
 这里顺带记录了对  [bilibili/discovery](https://github.com/bilibili/discovery) 学习过程中的一些理解
+
+
 
 
 ## 1. discovery 在goim 中的角色与作用
@@ -78,9 +82,7 @@ discovery / eureka 中的基本概念, 如上图所示, 就是一个分区进行
 
 -------
 
-> 
-> **注**: bilibili/discovery 是以 http 方式提供注册/更新/发现/同步...等服务注册与发现等业务功能
-> 
+> **注**: bilibili/discovery 是以 http 方式提供注册/更新/发现/同步...等服务注册与发现等业务功能 
 
 所以, 可以看到 discorevy 获取一个服务器节点, 是如下方式
 ```
@@ -175,9 +177,7 @@ type Config struct {
 
 在 comet 配置中定义为
 
-> 
 > 在 comet 配置源文件中 [https://github.com/Terry-Mao/goim/blob/master/internal/comet/conf/conf.go](https://github.com/Terry-Mao/goim/blob/master/internal/comet/conf/conf.go) 第 112 行
-> 
 
 ```
 // Config is comet config.
@@ -195,7 +195,6 @@ type Config struct {
 }
 ```
 
-> 
 > 在 job 配置源文件中 [https://github.com/Terry-Mao/goim/blob/master/internal/job/conf/conf.go](https://github.com/Terry-Mao/goim/blob/master/internal/job/conf/conf.go) 第 59 行
 
 ```

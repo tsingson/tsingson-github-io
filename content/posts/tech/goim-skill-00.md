@@ -3,27 +3,33 @@ title: "goim 架构与定制"
 date: 2019-04-21T22:02:57+08:00
 hidden: false
 draft: false
+author: "tsingson"
 tags: [golang, go, goim]
 keywords: [tsingson]
 description: "goim 架构与定制"
 slug: "goim-go-01"
 ---
 
-
+[简述]  [http://goim.io](http://goim.io) 是 非常成功的 IM (Instance Message) 即时消息平台 , 本文介绍 goim 分布式架构及内部网元接口设计要点, 以及如何定制
+<!--more-->
 
 ### 0. 关于 goim 及文章撰写动机
 
-goim 官网 [http://goim.io](http://goim.io)
 
-goim 源码 [https://github.com/Terry-Mao/goim](https://github.com/Terry-Mao/goim)
-
-___
 
 
 goim 是 非常成功的 IM (Instance Message) 即时消息平台, 依赖项为 kafka ( 消息队列) + zookeeper ( 扩展/均衡 ) + bilibili/discovery( 在 [netflix/eureka](https://github.com/Netflix/eureka)上扩展的服务注册与发现, [golang](https://golang.org) 实现) 
 
 
 作为一个曾经的架构师(2005~2014, Utstarcom IPTV/OTT 事业部) 与当前自由职业者(你懂的~~~~), 时常在 Golang 圈转转,  有朋友聊到IM 并提到goim, 我作了一些学习与研究 
+
+ 
+
+goim 官网 [http://goim.io](http://goim.io)
+
+goim 源码 [https://github.com/Terry-Mao/goim](https://github.com/Terry-Mao/goim)
+
+___
 
 中国 B站( BiliBili ) 的技术领军 [毛剑](https://github.com/Terry-Mao/) 是我神交以久的技术专家,   [goim](https://github.com/Terry-Mao/goim)  是一个非常成功的架构示例, 其模块拆分, 接口设计, 技术选型 ,部署方式 以及持续改进演变, 都是一个互联网商用项目典范.  
 
@@ -57,14 +63,11 @@ goim 是 非常成功的 IM (Instance Message) 即时消息平台, 依赖项为 
  ![original architecture](https://user-gold-cdn.xitu.io/2019/4/21/16a3ce9aca706cb9?w=1342&h=790&f=png&s=84094)
 
  #### 注意要点:
->
->1. comet / job / logic 支持多实例部署, 这是 goim 分布式架构设计的精粹. 同时, push message 消息发布接口从 comet 拆分也有一定的考量, 毕竟多数IM 尤其是 bilibili 的业务场景上来说, 发送量少, 而阅读量多, 想想弹幕的业务场景就明白了.
->
->2. goim 采用 [bilibili/discovery](https://github.com/bilibili/discovery) 实现注册/服务发现, 从而实现分布式路由与动态调度, 相关细节参看 [bilibili/discovery](https://github.com/bilibili/discovery) 文档, 以及 [Netflix/eureka](https://github.com/Netflix/eureka) 原始设计文档
->
->3. 配置 discovery 时, 注意 region / zone / env 的相互匹配对应关系
->
->4. 测试部署请注意 redis-server 尽量只要部署一个实例或一个集群(相当于单实例), kafka / zookeeper 相对简单, 部署多少都行, 配置对接上就行
+
+> 1. comet / job / logic 支持多实例部署, 这是 goim 分布式架构设计的精粹. 同时, push message 消息发布接口从 comet 拆分也有一定的考量, 毕竟多数IM 尤其是 bilibili 的业务场景上来说, 发送量少, 而阅读量多, 想想弹幕的业务场景就明白了.
+> 2. goim 采用 [bilibili/discovery](https://github.com/bilibili/discovery) 实现注册/服务发现, 从而实现分布式路由与动态调度, 相关细节参看 [bilibili/discovery](https://github.com/bilibili/discovery) 文档, 以及 [Netflix/eureka](https://github.com/Netflix/eureka) 原始设计文档
+> 3. 配置 discovery 时, 注意 region / zone / env 的相互匹配对应关系
+> 4. 测试部署请注意 redis-server 尽量只要部署一个实例或一个集群(相当于单实例), kafka / zookeeper 相对简单, 部署多少都行, 配置对接上就行
 
 
 
@@ -101,7 +104,7 @@ goim 源码不多, 阅读简单也算是 golang 语言的特点, 在 goim 尤其
 
 
 #### 0. 请注意
->
+
 > 下面的源码标记出处在 [https://github.com/Terry-Mao/goim](https://github.com/Terry-Mao/goim) 
 >
 > 与我的 repo [https://github.com/tsingson/goim](https://github.com/tsingson/goim) 并不相同!!!

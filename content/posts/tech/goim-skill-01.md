@@ -3,16 +3,20 @@ title: "从goim定制, 浅谈 golang 的 interface 解耦合与gRPC"
 date: 2019-04-23T22:02:57+08:00
 hidden: false
 draft: false
+author: "tsingson"
 tags: [golang, go, goim]
 keywords: [tsingson]
 description: "从goim定制, 浅谈 golang 的 interface 解耦合与gRPC"
 slug: "goim-go-02"
 ---
 
-# 从goim定制, 浅谈 golang 的 interface 解耦合与gRPC
+[简述]  [http://goim.io](http://goim.io) 实例讲解 goim 从 kafka 切换到 nats 的定制过程, 兼谈 谈 golang 的 interface 解耦合, 及 gRPC 在多语言网元之间实现解耦合接口的优点
+<!--more-->
 
 ## 0. 背景及动机
 继上一篇文章 [goim 架构与定制](https://juejin.im/post/5cbb9e68e51d456e51614aab) , 再谈 [goim](https://github.com/Terry-Mao/goim) 的定制扩展, 这一次谈一弹 goim 从 kafka 转到 nats 
+
+
 
 github 上的 issue 在这里[https://github.com/Terry-Mao/goim/issues/262](https://github.com/Terry-Mao/goim/issues/262)
 
@@ -22,11 +26,8 @@ github 上的 issue 在这里[https://github.com/Terry-Mao/goim/issues/262](http
 
 
 > 为什么要用接口呢？在Gopher China 上的分享中，有大神给出了下面的理由：
->
 > > writing generic algorithm （类似泛型编程）
-> >
 > > hiding implementation detail （隐藏具体实现）
-> >
 > > providing interception points (提供拦截点-----> 也可称叫提供 HOOKS , 一个插入其他业务逻辑的钩子)
 
 ----
