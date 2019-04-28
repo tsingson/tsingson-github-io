@@ -1,6 +1,6 @@
 ---
 title: "关于工作室"
-date: 2019-04-20T22:02:57+08:00
+date: 2016-05-20T22:02:57+08:00
 hidden: false
 draft: false
 tags: [tsingson, photography, design, programming, jeep, blues, harmonica]
