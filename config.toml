@@ -27,28 +27,33 @@ publishDir =                "../tsingson.github.io"
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "Development技术"
+  name = "技术"
   weight = 20
   identifier = "tech"
   url = "/tech/"
 [[menu.main]]
-  name = "Design设计"
-  weight = 20
+  name = "设计"
+  weight = 30
   identifier = "design"
   url = "/design/"
 [[menu.main]]
-  name = "Music音乐"
-  weight = 20
+  name = "摄影"
+  weight = 30
+  identifier = "photography"
+  url = "/photography/"
+[[menu.main]]
+  name = "音乐"
+  weight = 40
   identifier = "music"
   url = "/music/"
 [[menu.main]]
-  name = "Tags标签"
-  weight = 30
+  name = "Tags"
+  weight = 50
   identifier = "tags"
   url = "/tags/"
 [[menu.main]]
-  name = "About关于"
-  weight = 40
+  name = "关于"
+  weight = 60
   identifier = "about"
   url = "/about/about-me/"
 

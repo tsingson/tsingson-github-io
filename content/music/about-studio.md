@@ -1,5 +1,5 @@
 ---
-title: "关于工作室"
+title: "关于小罗号口琴音乐中心"
 date: 2016-05-20T22:02:57+08:00
 hidden: false
 draft: false
@@ -39,8 +39,17 @@ slug: "about-studio"
 
 深圳市南山区南光城市花园2栋公寓13楼1319室
 
- 
 
+_
 
+![2016-nanguang](/music/2016-nanguang.jpg)
+
+2016年宣传海报一张
+
+![2017](/music/IMG_0481.JPG)
+
+2017海报一张
+
+![控制台正面4米宽X1.2米-出血00](/music/gdihf-logo.jpg)
 
 [tsingson](https://github.com/tsingson) 写于中国深圳 [小罗号口琴音乐中心](https://zhuanlan.zhihu.com/tsingsonqin) 

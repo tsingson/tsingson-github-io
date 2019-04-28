@@ -1,7 +1,9 @@
 ---
 title: 摄影
 date: 2017-03-23
-publishdate: 2017-03-24
 ---
 
-摄影
+![photography](/photography/IMG_2259.jpb)
+
+
+
