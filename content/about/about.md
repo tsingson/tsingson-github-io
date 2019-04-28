@@ -21,6 +21,9 @@ slug: "about-me"
 
 喜欢 golang 语言 (商用项目中主要用 postgres + golang )  
 
+看看
+> [小罗号口琴音乐中心](https://zhuanlan.zhihu.com/tsingsonqin) 深圳第一家专业提供口琴音乐培训的小机构, 成立于2016年5月
 
 
-[tsingson](https://github.com/tsingson) 写于中国深圳 [小罗号口琴音乐中心](https://zhuanlan.zhihu.com/tsingsonqin), 2019/04/25
+
+[tsingson](https://github.com/tsingson) 写于中国深圳 [小罗号口琴音乐中心](https://zhuanlan.zhihu.com/tsingsonqin) 
