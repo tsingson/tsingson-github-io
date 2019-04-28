@@ -1,12 +1,12 @@
 ---
-title: "关于我"
+title: "关于工作室"
 date: 2019-04-20T22:02:57+08:00
 hidden: false
 draft: false
 tags: [tsingson, photography, design, programming, jeep, blues, harmonica]
 keywords: [tsingson]
-description: "关于我, tsingson(三明智)"
-slug: "about-me"
+description: "关于工作室, tsingson(三明智)"
+slug: "about-studio"
 ---
 
 ## 联络我

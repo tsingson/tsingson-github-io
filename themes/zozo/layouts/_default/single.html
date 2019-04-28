@@ -13,6 +13,7 @@
           <span class="date">  By <strong class="post-author">{{ . }}</strong></span>
           {{ end }}
         </div>
+
         <div class="post_content markdown">{{ .Content }}</div>
         <div class="post_footer">
           {{ with .Params.tags }}
@@ -28,6 +29,11 @@
           </div>
           {{ end }}
         </div>
+      </div>
+      <div class="post_page">
+        {{ if .Params.series }}
+        {{ partial "series_link.html" . }}
+        {{ end }}
       </div>
       <!-- Valine 评论系统 -->
 <div id="disqus_thread"></div>

@@ -1,5 +1,5 @@
 {{ $pages := where .Pages "Params.hidden" "ne" true }}
-{{ $paginator := .Paginate (where $pages "Type" "posts") }}
+{{ $paginator := .Paginate (where $pages "Type" "tech") }}
 {{ range $paginator.Pages }}
 <div class="post animated fadeInDown">
   <div class="post_title">

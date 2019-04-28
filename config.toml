@@ -30,17 +30,17 @@ publishDir =                "../tsingson.github.io"
   name = "技术"
   weight = 20
   identifier = "tech"
-  url = "/posts/tech/"
+  url = "/tech/"
 [[menu.main]]
   name = "设计"
   weight = 20
   identifier = "design"
-  url = "/posts/design/"
+  url = "/design/"
 [[menu.main]]
   name = "音乐"
   weight = 20
   identifier = "music"
-  url = "/posts/music/"
+  url = "/music/"
 [[menu.main]]
   name = "标签"
   weight = 30
@@ -50,7 +50,7 @@ publishDir =                "../tsingson.github.io"
   name = "关于我"
   weight = 40
   identifier = "about"
-  url = "/about/about/"
+  url = "/about/about-me/"
 
 [params]
   subTitle = "programming.design.music"                                       # site's subTitle  # 网站二级标题
@@ -62,9 +62,14 @@ publishDir =                "../tsingson.github.io"
   enableMathJax = true                                                 # enable mathjax  # 是否使用mathjax（数学公式）
   enableSummary = true                                                 # display the article summary  # 是否显示文章摘要
 
-# Valine.
-# You can get your appid and appkey from https://leancloud.cn
-# more info please open https://valine.js.org
+ [permalinks]
+#   post = "/:year/:month/:title/"
+  posts = "/:slug"
+[taxonomies]
+    category = "categories"
+    series = "series"
+   tags = "tags"
+
 [params.valine]
   enable = false
   appId = ""
