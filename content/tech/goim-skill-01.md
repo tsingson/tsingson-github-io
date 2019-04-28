@@ -4,11 +4,14 @@ date: 2019-04-23T22:02:57+08:00
 hidden: false
 draft: false
 author: "tsingson"
-tags: [golang, go, goim]
+
+categories : [ "Development" ]
+series: "goim"
+tags: [goim, golang]
 keywords: [tsingson]
+
 description: "从goim定制, 浅谈 golang 的 interface 解耦合与gRPC"
 slug: "goim-go-02"
-series: "goim"
 ---
 
 [简述]  [http://goim.io](http://goim.io) 实例讲解 goim 从 kafka 切换到 nats 的定制过程, 兼谈 谈 golang 的 interface 解耦合, 及 gRPC 在多语言网元之间实现解耦合接口的优点

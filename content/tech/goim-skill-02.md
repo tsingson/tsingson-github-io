@@ -4,11 +4,13 @@ date: 2019-04-24T22:02:57+08:00
 hidden: false
 draft: false
 author: "tsingson"
-tags: [golang, go, goim]
+categories : [ "Development" ]
+series: "goim"
+tags: [goim, golang]
 keywords: [tsingson]
+
 description: "bilibili/discovery 基本概念及在 goim中的使用"
 slug: "goim-go-03"
-series: "goim"
 ---
 
 [简述] [bilibili/discovery](https://github.com/bilibili/discovery) 是用于 [http://goim.io](http://goim.io) 的服务注册/发现的依赖网元, 由golang 实现了  [netflix/eureka](https://github.com/Netflix/eureka)  , 支持 goim 的分布式部署与动态调度路由, 本文介绍基本概念与配置要点

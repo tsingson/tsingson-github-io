@@ -4,8 +4,12 @@ date: 2018-07-28T22:02:57+08:00
 hidden: false
 draft: false
 author: "tsingson"
+
+categories : [ "Development" ]
+series : [ "Go Web Dev" ]
 tags: [gdihf, design, poster]
 keywords: [tsingson, gdihf, music, harmonica, blues]
+
 description: "2018年第五届广东口琴嘉年华海报设计, 原创"
 slug: "gdihf-01"
 ---
