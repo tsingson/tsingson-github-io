@@ -14,6 +14,10 @@ disqusShortname = ""                 # your discuss shortname
   name = "tsingson"
 
 [blackfriday]
+  angledQuotes = true
+  extensions = ["hardLineBreak"]
+  fractions = false
+  plainIDAnchors = true
   smartypants = false
 
 [[menu.main]]                        # config your menu  # 配置菜单
