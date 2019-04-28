@@ -9,6 +9,9 @@
         <div class="post_title post_detail_title">
           <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
           <span class="date">{{ .Date.Format "2006.01.02" }}</span>
+          {{ with .Params.author }}
+          <span class="date">  By <strong class="post-author">{{ . }}</strong></span>
+          {{ end }}
         </div>
         <div class="post_content markdown">{{ .Content }}</div>
         <div class="post_footer">

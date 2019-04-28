@@ -15,7 +15,7 @@ disqusShortname = ""                 # your discuss shortname
 
 [blackfriday]
   angledQuotes = true
-  extensions = ["hardLineBreak"]
+#  extensions = ["hardLineBreak"]
   fractions = false
   plainIDAnchors = true
   smartypants = false
