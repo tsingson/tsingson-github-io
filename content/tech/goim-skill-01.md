@@ -7,7 +7,7 @@ author: "tsingson"
 
 categories : [ "Development" ]
 series: "goim"
-tags: [goim, golang]
+tags: [goim,golang]
 keywords: [tsingson]
 
 description: "从goim定制, 浅谈 golang 的 interface 解耦合与gRPC"

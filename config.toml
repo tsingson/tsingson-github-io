@@ -10,7 +10,7 @@ enableEmoji = true
 googleAnalytics = ""                 # your google analytics id
 disqusShortname = ""                 # your discuss shortname
 publishDir =                "../tsingson.github.io"
-
+preserveTaxonomyNames = false
 [author]                             # essential                     # 必需
   name = "tsingson"
 

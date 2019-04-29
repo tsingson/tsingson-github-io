@@ -3,7 +3,7 @@ title: "grpc（2）：Centos 安装 nghttp2 做 grpc 的http2 代理"
 date: 2019-04-21T22:02:57+08:00
 hidden: true
 draft: true
-tags: [golang, go, goim]
+tags: [goim,golang]
 keywords: [tsingson]
 description: "goim 架构与定制"
 slug: "go-skil-01"

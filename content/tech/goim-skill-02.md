@@ -6,7 +6,7 @@ draft: false
 author: "tsingson"
 categories : [ "Development" ]
 series: "goim"
-tags: [goim, golang]
+tags: [goim,golang]
 keywords: [tsingson]
 
 description: "bilibili/discovery 基本概念及在 goim中的使用"
