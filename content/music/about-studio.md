@@ -19,7 +19,9 @@ slug: "about-studio"
  Music, make everythings better! 音乐, 让一切更美好.
 
 
-  [小罗号口琴音乐中心](https://zhuanlan.zhihu.com/tsingsonqin) 深圳第一家专业提供口琴音乐培训的小机构, 成立于2016年5月
+  [小罗号口琴音乐中心](http://g2cn.cn) 深圳第一家专业提供口琴音乐培训的小机构, 成立于2016年5月
+
+   知乎专栏 [小罗号口琴音乐](https://zhuanlan.zhihu.com/tsingsonqin) 
 
 ----
 
@@ -40,7 +42,8 @@ slug: "about-studio"
 深圳市南山区南光城市花园2栋公寓13楼1319室
 
 
-_
+
+_以下为原创平面设计
 
 ![2016-nanguang](/music/2016-nanguang.jpg)
 

@@ -1,4 +1,5 @@
 baseURL = "https://tsingson.github.io"
+relativeurls = false
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
 title = "三明智"                    # site title  # 网站标题
