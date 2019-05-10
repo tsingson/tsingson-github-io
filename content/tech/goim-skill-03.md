@@ -100,6 +100,41 @@ message Proto {
 
 同时,  comet 中使用了 ring buffer 来缓存一个 channel 送达的多条信息并推送到终端, 这里, 并没有看到对推送下发的信息作更多处理. 
 
+
+
+-----
+
+**看代码, 补充细节**
+
+```
+// Channel used by message pusher send msg to write goroutine.
+type Channel struct {
+	c        *conf.CometConfig
+	Room     *Room
+	CliProto Ring
+	signal   chan *grpc.Proto
+	Writer   xbufio.Writer
+	Reader   xbufio.Reader
+	Next     *Channel
+	Prev     *Channel
+
+	Mid      int64   // #########   memberID  
+	Key      string
+	IP       string
+	watchOps map[int32]struct{}
+
+	mutex sync.RWMutex
+}
+```
+这里:
+1. mid 就是 memberID , 当前 channel ( 用户端与 comet 的长连接) 是哪个用户连接上的
+该长连接使用 key 作为长连接的会话标识, 换个方式说, key 也就标定了一个 im 信息要发给哪个/哪几个在线长连接对端的用户
+2. key 就是长连接的会话ID, 可以这么理解, 就算是 sessionID 吧
+3. watchOps 是一个map 映射表, 其中的 int32 是房间号.  map 多个房间号, map 结构是用来查询房间号是否在 map 中存在或不存在. watchOps 是当前长连接用户用来监听当前客户端接收哪个房间的 im 消息推送, 换个方式说, 一个 goim 终端可以接收多个房间发送来的 im 消息
+4. watchOps 初始化是在 tcp / websocket 客户端进行首次连接时处理的, 细节看代码.
+
+--------
+
 从 logic 自 http 的 post 请求中, 获取发布 im 信息后, 序列化发到 MQ, 在 job 中拆包反序列化, 再组包, 这一步骤对性能是否有影响, 需发测试数据来定位, 但个人感觉, 这几次拆包组包, 有点重复.
 
 
