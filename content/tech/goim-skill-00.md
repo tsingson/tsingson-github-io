@@ -14,6 +14,10 @@ description: "goim 架构与定制"
 slug: "goim-go-01"
 ---
 
+
+
+![photo-desk](/tech/assets/photo-desk.jpg)
+
 [简述]  [http://goim.io](http://goim.io) 是 非常成功的 IM (Instance Message) 即时消息平台 , 本文介绍 goim 分布式架构及内部网元接口设计要点, 以及如何定制
 <!--more-->
 
