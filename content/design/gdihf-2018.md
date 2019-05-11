@@ -14,6 +14,8 @@ description: "2018年第五届广东口琴嘉年华海报设计, 原创"
 slug: "gdihf-01"
 ---
 
+![design](/design/assets/design.jpg)
+
 [简述]  2018年第五届广东口琴嘉年华海报设计, 原创
 <!--more-->
 
