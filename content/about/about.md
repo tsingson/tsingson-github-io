@@ -44,10 +44,21 @@ slug: "about-me"
 email: tsingson_at_gmail_com
 
 
-### 我的技术专栏
 
- [掘金](https://juejin.im/user/5990ffd751882548b17f7020)
-   [github博客](https://tsingson.github.io)  / [小站](http://www.tsingson.io)
+### 我的网上专栏/博客
+
+ [掘金https://juejin.im/user/5990ffd751882548b17f7020 技术](https://juejin.im/user/5990ffd751882548b17f7020)
+
+ [github博客 https://tsingson.github.io 技术为主](https://tsingson.github.io)  
+
+ [个人小站 http://www.tsingson.io 一家子](http://www.tsingson.io)
+
+[设计/摄影 https://www.behance.net/tsingson](https://www.behance.net/tsingson)
+
+[知乎专栏 小罗号口琴音乐 https://zhuanlan.zhihu.com/tsingsonqin](https://zhuanlan.zhihu.com/tsingsonqin) 
+
+
+
 
 
 ## 我的音乐工作室
@@ -55,7 +66,7 @@ email: tsingson_at_gmail_com
  [关于小罗号口琴音乐中心](/music/about-studio/)
  深圳第一家专业提供口琴音乐培训的小机构, 成立于2016年5月
 
- 知乎专栏 [小罗号口琴音乐](https://zhuanlan.zhihu.com/tsingsonqin) 
+ ![photo-desk](/tech/assets/photo-desk.jpg)
 
 
 
