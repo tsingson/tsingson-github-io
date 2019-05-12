@@ -51,8 +51,6 @@ email: tsingson_at_gmail_com
 
  [github博客 https://tsingson.github.io 技术为主](https://tsingson.github.io)  
 
- [个人小站 http://www.tsingson.io 一家子](http://www.tsingson.io)
-
 [设计/摄影 https://www.behance.net/tsingson](https://www.behance.net/tsingson)
 
 [知乎专栏 小罗号口琴音乐 https://zhuanlan.zhihu.com/tsingsonqin](https://zhuanlan.zhihu.com/tsingsonqin) 
