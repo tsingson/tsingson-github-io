@@ -15,9 +15,9 @@ slug: "hot-golang"
 
 
 
- 
+ ![go-logo-music](/tech/assets/go-logo-music.jpg)
 
-![photo-desk](/tech/assets/photo-desk.jpg)
+
 
 
 > 在 知乎 的一个问题[为什么 Go 语言能在中国这么火？ https://www.zhihu.com/question/46755408/answer/586812009](https://www.zhihu.com/question/46755408/answer/586812009) 的回复, 整理后发在这里了
@@ -129,7 +129,17 @@ go 相对于 java 也有点类似, 学习成本低.
 ----
 事实上 go 在中国或世界范围, 并没有那么火, 但对比 java ,   go 也并没有那么不堪 . 
 
+
+
+
+![photo-desk](/tech/assets/photo-desk.jpg)
+
+
+
+
 ## 2 一些建议, 别转到 go 来, 兼修就好
+
+
 ### 2.1 大可不必从 java /python /nodeJs 转 go
 想对刚毕业3年左右的朋友说, 大可不必从 java 转 go 
 
@@ -239,11 +249,15 @@ go 相对于 java 也有点类似, 学习成本低.
 
 
 
-## 3. 一些有趣的补充
 
 ![me2](/tech/assets/me2.jpg)
 
 > 各位爷, 看看在街头的我, 给您咧位吹上一曲, 放松一下
+
+
+
+
+## 3. 一些有趣的补充
 
 
 
