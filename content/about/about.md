@@ -21,7 +21,7 @@ slug: "about-me"
 
 原 ustarcom IPTV/OTT 事业部播控产品线技术架构湿/解决方案工程湿角色(8年), 自由职业者,
 
-喜欢音乐(口琴,是第三/四/五届广东国际口琴嘉年华的主策划人之一), 设计/摄影与越野, 
+喜欢音乐(口琴,是第三/四/五届广东国际口琴嘉年华的主策划人之一), 设计/摄影与越野,
 
 喜欢 golang 语言 (商用项目中主要用 postgres + golang )
 
@@ -41,7 +41,7 @@ slug: "about-me"
 ## 联络我
 ###
 [twitter](https://twitter/tsingson)
-email: tsingson_at_gmail_com
+email: tsingson_at_me_com
 
 
 
@@ -49,11 +49,11 @@ email: tsingson_at_gmail_com
 
  [掘金https://juejin.im/user/5990ffd751882548b17f7020 技术](https://juejin.im/user/5990ffd751882548b17f7020)
 
- [github博客 https://tsingson.github.io 技术为主](https://tsingson.github.io)  
+ [github博客 https://tsingson.github.io 技术为主](https://tsingson.github.io)
 
 [设计/摄影 https://www.behance.net/tsingson](https://www.behance.net/tsingson)
 
-[知乎专栏 小罗号口琴音乐 https://zhuanlan.zhihu.com/tsingsonqin](https://zhuanlan.zhihu.com/tsingsonqin) 
+[知乎专栏 小罗号口琴音乐 https://zhuanlan.zhihu.com/tsingsonqin](https://zhuanlan.zhihu.com/tsingsonqin)
 
 
 
@@ -68,4 +68,4 @@ email: tsingson_at_gmail_com
 
 
 
-[tsingson](https://github.com/tsingson) 写于中国深圳 [小罗号口琴音乐中心](https://zhuanlan.zhihu.com/tsingsonqin) 
+[tsingson](https://github.com/tsingson) 写于中国深圳 [小罗号口琴音乐中心](https://zhuanlan.zhihu.com/tsingsonqin)

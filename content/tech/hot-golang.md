@@ -196,6 +196,8 @@ _
 对的, 您没看错, 说的就是 sql , 尤其是 plsql 这一类数据库存储过程编程与 NewSQL
 
 
+精通一门编程语言,再对照其他编程语言, 会对编程/设计这一**工具**, 有更深入更透彻的理解与实践
+
 ### 2.2 掌握如何编程, 比掌握一门开发语言更重要
 这算是卖身说法, "王老"卖瓜吗? ( ........瀑布式开发汗.......)
 
@@ -396,7 +398,7 @@ architecture 架构 , 这是个简单又复杂的玩意儿, 这里就简单说�
 想清楚了 7/8/9 这类架构师面对的问题,  uber 从 postgres 转到 mysql 的动因也就清楚了, 并不是 postgres 不优秀, 而是 mysql ( 真实原因是 mysql 的那个低层存储引擎) 更适合 uber 的超大存储/查询需要.
 对于架构师来说, 单一部件的优秀, 开发高效或执行高效, 并不是唯一决定架构技术选型的因素.
 
-## 4. 小结
+## 4. 后记
 
 附图一张, 2015年画的, 2.2章节提到的某某某平台, 给新人了解这个某某某平台的第一张图, 网元之间的分工界面:
 
@@ -410,10 +412,36 @@ architecture 架构 , 这是个简单又复杂的玩意儿, 这里就简单说�
 .
 
 .
+. 致敬 golang 的缔造者:
+
+
+![go-faters-3](/tech/assets/go-faters-3.png)
+
+> Go语言的三位最初的缔造者 — Rob Pike、Robert Griesemer 和 Ken Thompson 中，Robert Griesemer 参与设计了Java的HotSpot虚拟机和Chrome浏览器的JavaScript V8引擎，Rob Pike 在大名鼎鼎的bell lab侵淫多年，参与了Plan9操作系统、C编译器以及多种语言编译器的设计和实现，Ken Thompson 更是图灵奖得主、Unix之父、C语言之父。这三人在计算机史上可是元老级别的人物，特别是 Ken Thompson ，是一手缔造了Unix和C语言计算机领域的上古大神，所以Go语言的设计哲学有着深深的Unix烙印：简单、模块化、正交、组合、pipe、功能短小且聚焦等；而令许多开发者青睐于Go的简洁、高效编程模式的原因，也正在于此。
+>
+> 
+>
+> ------------ 摘自[http://blog.taohuawu.club/article/goroutine-pool](http://blog.taohuawu.club/article/goroutine-pool)  作者: [潘建锋](http://blog.taohuawu.club)
+
+终于写到最后了, 放上我尊敬的一位说真话的程序员/设计师:
+
+[王垠--编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy)
 
 .
 
-能看到这里, 谢谢了, 小文有点啰嗦.
+
+
+.
+
+
+
+.
+
+--------
+
+
+
+能看到这里, **谢谢了**, 小文有点啰嗦.
 
 浪费您时间了.
 
@@ -436,7 +464,9 @@ _
 
 _
 
- 
+---
+
+本文发表在 [掘金](https://juejin.im/post/5cdabc9fe51d45379a164332)-
 
 _
 
