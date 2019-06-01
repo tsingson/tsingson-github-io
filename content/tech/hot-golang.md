@@ -5,8 +5,8 @@ hidden: false
 draft: false
 author: "tsingson"
 categories : [ "Development" ]
-series: "goim"
-tags: [goim,golang]
+series: “golang"
+tags: [golang]
 keywords: [tsingson]
 
 description: "为什么 Go 语言能在中国这么火？"
