@@ -56,15 +56,19 @@ slug: "goim-go-06"
 
 
 
-### 1.1 与 goim 交互前的登录验证及分流
+## 2. 认证集成
+
+### 2.1 与 goim 交互前(登录验证及LB分流)
 
 goim 客户端, 或叫 goim 终端, 在与 goim 交互前, 应该与 AAA 或类似网元进行交互:
+
 1. 通过用户/密码或相关信息进行登录, 获取当前用户 ID 及相关认证信息,  参见下一小节的 token 
 2. AAA 返回给 goim 终端必要的路由数据, 比如当前 goim 应该去访问哪一个 comet ( 接收 im 消息) , 以及哪个 logic ( 发送 im 消息) ,  或者给 goim 终端一个 discovery 地址, 让 goim 终端去 discovery 得到 comet / logic 地址 -------------> 这一步算是 load balance 负载均衡吧
 
-### 1.2 认证集成
 
-#### 1.2.1 认证token
+
+
+#### 2.2 认证token
 
 以下代码取自 /examples/goim-web/public/client.js
 
@@ -108,16 +112,17 @@ function auth() {
 }
 ```
 
-#### 1.2.2 认证的集成
+#### 2.3 认证的集成
 
-认证的集成有两处:
+认证的集成处理有两处
+
 1. 用户在 goim 连接 comet 前, 应获得用户信息, 以便构造 goim 的认证 token , 就是上章节提到的 mid / room_id / accepts 这些数据
 2. 在 logic 中处理认证, 在 /internal/logic/conn.go 中的 func (l *Logic) Connect(c context.Context, server, cookie string, token []byte) 函数体内, 处理连接认证的验证, 比如检查 mid 是否存在, 相应的  room_id / accepts 是否有权限进入等, 如果验证通过, 则生成会话数据, 存入 redis 中;  否则返回认证失败 ( 在 comet 中认证失败的处理是关闭 goim 与 comet 的长连接 )
 
 
 
 
-
+## 3.  im消息发送与处理
 
 
 
@@ -152,6 +157,6 @@ _
 
 _
 
- [tsingson](https://github.com/tsingson) 写于中国深圳, 2019/05/30
+ [tsingson](https://github.com/tsingson) 写于中国深圳 [小罗号口琴音乐中心](https://zhuanlan.zhihu.com/tsingsonqin), 2019/05/30
 
 
