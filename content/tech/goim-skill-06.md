@@ -35,6 +35,18 @@ slug: "goim-go-06"
 >
 > 视频地址在 youtube [https://www.youtube.com/watch?v=bFniRH3ifx8](https://www.youtube.com/watch?v=bFniRH3ifx8) 
 
+----
+
+> goim 文章系列(共5篇):
+> * [goim 架构与定制](/tech/goim-go-01/index.html)
+> * [从goim定制, 浅谈 golang 的 interface 解耦合与gRPC](/tech/goim-go-02/index.html)
+> * [goim中的 bilibili/discovery (eureka)基本概念及应用](/tech/goim-go-03/index.html)
+> * [goim 的 data flow 数据流](/tech/goim-go-04/index.html)
+> * [goim的业务集成(分享会小结与QA)](/tech/goim-go-06/index.html)
+>
+>  有个 slack 频道, 不少朋友在交流 goim , 欢迎加入[slack #goim](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
+
+
 
 
 
@@ -151,9 +163,9 @@ im 消息处理, 包括以下
 
 2. 关于 kafka / rabbitMQ / activeMQ / palsar / nsq / nats 等MQ的选择
 
-> 在 goim, 默认的 MQ 采用 kafka, 这是有众多大规划商用案例的一款重量级 MQ 消息队列
+> 在 goim, 默认的 MQ 采用 kafka, 这是 java实现, 有众多成功的大规模大部署长期运作商用案例的一款重量级 MQ 消息队列
 >
-> 新起之秀是 palsar , 看技术白皮书, 非常不错, 是比肩 kafka 的重量级作品, 但我没用过
+> 新起之秀是 palsar (java 实现) , 看技术白皮书, 非常不错, 是比肩 kafka 的重量级作品, 但我没用过
 >
 > activeMQ 评估比较过, 在我的评估报告中,是不推荐
 >
@@ -176,6 +188,22 @@ im 消息处理, 包括以下
 > 但不太建议.
 >
 > RPC 或其他通讯中间件, 更换掉 gRPC 很容易, 建议开发团队综合考虑, 使用自己最熟悉最擅长的 rpc 中间件. 如果没有自己最擅长的中间件, 那就保留 gRPC 吧.
+
+
+4. 是否可以用 goim 作为通信服务噐或游戏中的通讯组件
+
+> 是的, 理论上是可以的
+>
+> 但不太推荐这么玩
+>
+> 技术选型是很复杂, 但也很简单的事儿:  那就是充分考虑当前/将来的业务场景(包括业务运行的各个环境......) , 以及运维/运营/研发支撑这些业务的综合成本
+> 
+> 虽然 goim 有长连接, 也有不错的部署架构, 但毕竟是一个消息发送/弹幕业务场景积累下来的技术模型, 而不是在游戏开发, 或通信中间件的业务/技术积累下的最优选择
+
+
+
+
+
 
 _
 
@@ -200,14 +228,12 @@ goim 系列小文章, 这一篇是终结了.
 
 2019/05/30晚上, 与70多位朋友以视频会议方式就 goim 及周边技术聊了一个半小时, 也是很有趣的经历.
 
-
 -------
 
 **再一次, 感谢 https://www.bilibili.com 的开源 &  [毛剑](https://github.com/Terry-Mao/) 大神, 及众多开源社区的前辈们,朋友们**
 
-
 ------
- 
+
 
 ## 关于我
 

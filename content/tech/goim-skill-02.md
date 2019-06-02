@@ -17,6 +17,27 @@ slug: "goim-go-02"
 [简述]  [http://goim.io](http://goim.io) 实例讲解 goim 从 kafka 切换到 nats 的定制过程, 兼谈 谈 golang 的 interface 解耦合, 及 gRPC 在多语言网元之间实现解耦合接口的优点
 <!--more-->
 
+
+
+----
+
+
+
+> goim 文章系列(共5篇):
+> * [goim 架构与定制](/tech/goim-go-01/index.html)
+> * [从goim定制, 浅谈 golang 的 interface 解耦合与gRPC](/tech/goim-go-02/index.html)
+> * [goim中的 bilibili/discovery (eureka)基本概念及应用](/tech/goim-go-03/index.html)
+> * [goim 的 data flow 数据流](/tech/goim-go-04/index.html)
+> * [goim的业务集成(分享会小结与QA)](/tech/goim-go-06/index.html)
+>
+>  有个 slack 频道, 不少朋友在交流 goim , 欢迎加入[slack #goim](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
+
+
+
+
+
+
+
 ## 0. 背景及动机
 继上一篇文章 [goim 架构与定制](https://juejin.im/post/5cbb9e68e51d456e51614aab) , 再谈 [goim](https://github.com/Terry-Mao/goim) 的定制扩展, 这一次谈一弹 goim 从 kafka 转到 nats 
 

@@ -13,15 +13,22 @@ description: "goim 客户端之消息发送/接收实现解读与定制"
 slug: "goim-go-05"
 ---
 
+----
 
 
-> goim 文章系列:
-> * [goim 架构与定制](https://juejin.im/post/5cbb9e68e51d456e51614aab)
-> * [从goim定制, 浅谈 golang 的 interface 解耦合与gRPC](https://juejin.im/post/5cbd380c5188250a97133649)
-> * [bilibili/discovery 基本概念及在 goim中的使用](https://juejin.im/post/5cc10b086fb9a0323c526bb0)
-> * [goim 的 data flow 数据流](https://juejin.im/post/5cd12fa16fb9a0320b40ec32)
+> goim 文章系列(共5篇):
+> * [goim 架构与定制](/tech/goim-go-01/index.html)
+> * [从goim定制, 浅谈 golang 的 interface 解耦合与gRPC](/tech/goim-go-02/index.html)
+> * [goim中的 bilibili/discovery (eureka)基本概念及应用](/tech/goim-go-03/index.html)
+> * [goim 的 data flow 数据流](/tech/goim-go-04/index.html)
+> * [goim的业务集成(分享会小结与QA)](/tech/goim-go-06/index.html)
 >
 >  有个 slack 频道, 不少朋友在交流 goim , 欢迎加入[slack #goim](https://join.slack.com/t/reading-go/shared_invite/enQtMjgwNTU5MTE5NjgxLTA5NDQwYzE4NGNhNDI3N2E0ZmYwOGM2MWNjMDUyNjczY2I0OThiNzA5ZTk0MTc1MGYyYzk0NTA0MjM4OTZhYWE)
+
+
+
+
+
 
 ## 0. 文章撰写动机
 
