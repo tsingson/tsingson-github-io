@@ -38,6 +38,7 @@ go 性能的一些文章, 与 go 高性能开源库(特定场景)
 5. [二进制解析工具-达达](https://zhuanlan.zhihu.com/p/20410055) - [后续说明](https://zhuanlan.zhihu.com/p/20892141) -[补充阅读1](https://zhuanlan.zhihu.com/p/21367696) -[补充阅读2](https://idada.gitbooks.io/go-tips/content/)
 6. [https://blog.codingnow.com/2014/02/connection_reuse.html](https://blog.codingnow.com/2014/02/connection_reuse.html) -- code [https://github.com/funny/snet](https://github.com/funny/snet)
 7. [https://github.com/funny/fastway](https://github.com/funny/fastway) 
+8. [https://about.sourcegraph.com/go/gophercon-2019-how-i-write-http-web-services-after-eight-years](https://about.sourcegraph.com/go/gophercon-2019-how-i-write-http-web-services-after-eight-years)
 
 
 ### 2.2 gRPC / protobuffers / flatbuffers
@@ -46,6 +47,10 @@ go 性能的一些文章, 与 go 高性能开源库(特定场景)
 
 
 
+
+### 2.3 一些 network 相关
+
+1, [xgo 编译](https://github.com/karalabe/xgo/issues/65)
 
 _
 

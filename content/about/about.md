@@ -9,11 +9,19 @@ description: "关于我, tsingson(三明智)"
 slug: "about-me"
 ---
 
+ 
+
+
+
+
+
+ 
+
 [简述] 我是谁, 从哪来, 想去哪
 
 <!--more-->
 
-## 谁是 tsingson ( 三明智)
+##  tsingson ( 三明智) 是谁
 ![](/about/about.png)
 
 
@@ -57,7 +65,16 @@ email: tsingson_at_me_com
 
 
 
+### 我与摄影
+喜欢摄影, 喜欢玩相机, 喜欢黑白照片
 
+当前在玩的
+
+*  ebony 45ti 大画幅技术相机
+*  leica m3 / m6 
+*  fujifilm x100f 
+
+![self](/about/assets/self.jpg)
 
 ## 我的音乐工作室
 

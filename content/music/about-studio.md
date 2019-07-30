@@ -9,6 +9,9 @@ description: "关于工作室, tsingson(三明智)"
 slug: "about-studio"
 ---
 
+![](/music/gdihf-logo.jpg)
+
+
 [简述] 关于小罗号口琴音乐中心
 
 <!--more-->
@@ -53,6 +56,6 @@ _以下为原创平面设计
 
 2017海报一张
 
-![控制台正面4米宽X1.2米-出血00](/music/gdihf-logo.jpg)
+
 
 [tsingson](https://github.com/tsingson) 写于中国深圳 [小罗号口琴音乐中心](https://zhuanlan.zhihu.com/tsingsonqin) 
