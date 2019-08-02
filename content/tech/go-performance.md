@@ -44,14 +44,23 @@ go 性能的一些文章, 与 go 高性能开源库(特定场景)
 ### 2.2 gRPC / protobuffers / flatbuffers
 
 1. [gRPC 的负载均衡](https://www.do1618.com/archives/1461/grpc-之-loadbalancer/)
+2. [抓包gRPC的细节及分析](https://jingwei.link/2018/10/02/grpc-wireshark-analysis.html)  --  [敬维](https://jingwei.link)
+3. [grpc mock工具](https://github.com/SafetyCulture/s12-proto) ---- [使用介绍](https://rogchap.com/2019/06/25/mocking-grpc-in-go/)
+
 
 
 
 
 ### 2.3 一些 network 相关
 
-1, [xgo 编译](https://github.com/karalabe/xgo/issues/65)
+1. [xgo 编译](https://github.com/karalabe/xgo/issues/65)
+1. https://colobu.com/2019/07/30/network-issue-because-of-nf-conntrack/](https://colobu.com/2019/07/30/network-issue-because-of-nf-conntrack/)
 
+
+
+### 2.4 测试相关
+
+1. [GoMock vs. Testify: Mocking frameworks for Go]()
 _
 
 _
