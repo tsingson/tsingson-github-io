@@ -55,6 +55,7 @@ go 性能的一些文章, 与 go 高性能开源库(特定场景)
 
 1. [xgo 编译](https://github.com/karalabe/xgo/issues/65)
 1. https://colobu.com/2019/07/30/network-issue-because-of-nf-conntrack/](https://colobu.com/2019/07/30/network-issue-because-of-nf-conntrack/)
+1. [https://speakerdeck.com/lelenanam/how-uber-go-es](https://speakerdeck.com/lelenanam/how-uber-go-es)
 
 
 

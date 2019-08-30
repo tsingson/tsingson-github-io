@@ -2,7 +2,7 @@
 title: "postgresql 11 相关"
 date: 2019-08-01T12:02:57+08:00
 hidden: false
-draft: false
+draft: true
 author: "tsingson"
 categories : [ "Development" ]
 series: “postgres"
@@ -10,7 +10,7 @@ tags: [postgres]
 keywords: [tsingson]
 
 description: "postgresql 11 相关"
-slug: "postgres11"
+slug: "postgres"
 
 ---
 
