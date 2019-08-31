@@ -52,3 +52,10 @@ jit_provider = 'llvmjit'                # JIT implementation to use
 
 ```
 
+
+
+
+
+## reference 
+
+1. [https://github.com/okbob/plpgsql_check](https://github.com/okbob/plpgsql_check)
