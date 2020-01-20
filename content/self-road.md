@@ -1,4 +1,19 @@
+---
+title: "一些个人看法"
+date: 2019-05-30T22:02:57+08:00
+hidden: false
+draft: true
+author: "tsingson"
 
+categories : [ "Development" ]
+series: “mac"
+tags: [mac,golang]
+keywords: [tsingson,gdihf,music,harmonica,blues]
+
+description: "mac 并不适合编程"
+slug: "some"
+
+---
 
 
 

@@ -2,7 +2,7 @@
 title: "go语言2019高峰会的一些看法"
 date: 2019-08-15T02:02:57+08:00
 hidden: false
-draft: false
+draft: true
 author: "tsingson"
 
 categories : [ "Development" ]

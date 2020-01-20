@@ -1,3 +1,19 @@
+---
+title: "在CentOS 7上安装Envoy Proxy"
+date: 2019-05-30T22:02:57+08:00
+hidden: false
+draft: true
+author: "tsingson"
+
+categories : [ "Development" ]
+series: “mac"
+tags: [mac,golang]
+keywords: [tsingson,gdihf,music,harmonica,blues]
+
+description: "mac 并不适合编程"
+slug: "envoy-centos"
+
+---
 
 ![img](https://pic2.zhimg.com/50/v2-bd8ba2dbf1df6e3dfaff5c08a8048d09_b.jpg)
 
